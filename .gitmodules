@@ -34,9 +34,6 @@
 [submodule "serverless-cache-benchmark"]
 	path = serverless-cache-benchmark
 	url = git@github.com:redis-performance/serverless-cache-benchmark.git
-[submodule "redis-polarsignals-sample"]
-	path = redis-polarsignals-sample
-	url = git@github.com:redis-performance/redis-polarsignals-sample.git
 [submodule "perf_data_converter"]
 	path = perf_data_converter
 	url = git@github.com:redis-performance/perf_data_converter.git
@@ -49,27 +46,9 @@
 [submodule "redis-mixed-bench"]
 	path = redis-mixed-bench
 	url = git@github.com:redis-performance/redis-mixed-bench.git
-[submodule "fast_float"]
-	path = fast_float
-	url = git@github.com:redis-performance/fast_float.git
-[submodule "opentelemetry-redis-llm-sample"]
-	path = opentelemetry-redis-llm-sample
-	url = git@github.com:redis-performance/opentelemetry-redis-llm-sample.git
-[submodule "openllmetry"]
-	path = openllmetry
-	url = git@github.com:redis-performance/openllmetry.git
-[submodule "netperf"]
-	path = netperf
-	url = git@github.com:redis-performance/netperf.git
-[submodule "openstreaming-benchmark-java"]
-	path = openstreaming-benchmark-java
-	url = git@github.com:redis-performance/openstreaming-benchmark-java.git
 [submodule "redis-benchmark-connect"]
 	path = redis-benchmark-connect
 	url = git@github.com:redis-performance/redis-benchmark-connect.git
-[submodule "opentelemetry-jedis-http-sample"]
-	path = opentelemetry-jedis-http-sample
-	url = git@github.com:redis-performance/opentelemetry-jedis-http-sample.git
 [submodule "openstreaming-benchmark"]
 	path = openstreaming-benchmark
 	url = git@github.com:redis-performance/openstreaming-benchmark.git
@@ -79,21 +58,9 @@
 [submodule "redis-zbench-go"]
 	path = redis-zbench-go
 	url = git@github.com:redis-performance/redis-zbench-go.git
-[submodule "openmessaging-benchmark"]
-	path = openmessaging-benchmark
-	url = git@github.com:redis-performance/openmessaging-benchmark.git
 [submodule "geo-bench"]
 	path = geo-bench
 	url = git@github.com:redis-performance/geo-bench.git
-[submodule "go-wrk"]
-	path = go-wrk
-	url = git@github.com:redis-performance/go-wrk.git
-[submodule "opentelemetry-go-http-sample"]
-	path = opentelemetry-go-http-sample
-	url = git@github.com:redis-performance/opentelemetry-go-http-sample.git
-[submodule "redisconf21-how-to-benchmark-redis-demo"]
-	path = redisconf21-how-to-benchmark-redis-demo
-	url = git@github.com:redis-performance/redisconf21-how-to-benchmark-redis-demo.git
 [submodule "memtier_benchmark"]
 	path = memtier_benchmark
 	url = git@github.com:redis/memtier_benchmark.git
