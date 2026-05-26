@@ -64,3 +64,6 @@
 [submodule "memtier_benchmark"]
 	path = memtier_benchmark
 	url = git@github.com:redis/memtier_benchmark.git
+[submodule "redis-benchmarks-specification"]
+	path = redis-benchmarks-specification
+	url = git@github.com:redis/redis-benchmarks-specification.git
