@@ -45,6 +45,23 @@ Always run tests before declaring a task complete.
 3. Open a pull request against `main`.
 4. Do **not** push directly to `main`.
 
+## Docker images
+
+Several repos in this org publish Docker images to Docker Hub under the `redis/` namespace:
+
+| Repo | Image |
+|------|-------|
+| go-ycsb | `redis/go-ycsb` |
+| redis-benchmark-go | `redis/redis-benchmark-go` |
+| pubsub-sub-bench | `redis/pubsub-sub-bench` |
+| vector-db-benchmark | `redis/vector-db-benchmark` |
+| sidekiq-rs | `redis/sidekiq-benchmark` |
+
+Rules when working with Docker:
+- Always use `redis:8.6` or newer as the Redis base image in Dockerfiles and CI service containers.
+- Do **not** change the Docker registry (e.g. Docker Hub → GHCR) without explicit maintainer approval.
+- If a `docker-publish` workflow fails due to stale credentials, report it — do not change the registry.
+
 ## What to avoid
 
 - Do not reformat files unrelated to your change.
