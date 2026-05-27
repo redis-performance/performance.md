@@ -11,6 +11,7 @@ Meta-repository for the [redis-performance](https://github.com/redis-performance
 | [pubsub-sub-bench](https://github.com/redis-performance/pubsub-sub-bench) | Redis Pub/Sub subscriber throughput and latency benchmark | [`redis/pubsub-sub-bench`](https://hub.docker.com/r/redis/pubsub-sub-bench) |
 | [vector-db-benchmark](https://github.com/redis-performance/vector-db-benchmark) | Vector DB benchmarking suite (Redis, Weaviate, Milvus, Qdrant, …) | [`redis/vector-db-benchmark`](https://hub.docker.com/r/redis/vector-db-benchmark) |
 | [sidekiq-benchmark](https://github.com/redis-performance/sidekiq-benchmark) | Sidekiq protocol load benchmark — job throughput and latency (p50→p99.99) | [`redis/sidekiq-benchmark`](https://hub.docker.com/r/redis/sidekiq-benchmark) |
+| [memtier_benchmark](https://github.com/redis/memtier_benchmark) | NoSQL Redis and Memcache traffic generation and benchmarking tool | [`redislabs/memtier_benchmark`](https://hub.docker.com/r/redislabs/memtier_benchmark) |
 | [geo-bench](https://github.com/redis-performance/geo-bench) | Redis geo-command benchmarks | — |
 | [redis-zbench-go](https://github.com/redis-performance/redis-zbench-go) | Sorted-set benchmark | — |
 | [redis-benchmark-connect](https://github.com/redis-performance/redis-benchmark-connect) | TLS/mTLS connection benchmark | — |
