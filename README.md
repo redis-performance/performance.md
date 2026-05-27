@@ -10,7 +10,7 @@ Meta-repository for the [redis-performance](https://github.com/redis-performance
 | [redis-benchmark-go](https://github.com/redis-performance/redis-benchmark-go) | redis-benchmark clone with rate limiting and client-side caching | [`redis/redis-benchmark-go`](https://hub.docker.com/r/redis/redis-benchmark-go) |
 | [pubsub-sub-bench](https://github.com/redis-performance/pubsub-sub-bench) | Redis Pub/Sub subscriber throughput and latency benchmark | [`redis/pubsub-sub-bench`](https://hub.docker.com/r/redis/pubsub-sub-bench) |
 | [vector-db-benchmark](https://github.com/redis-performance/vector-db-benchmark) | Vector DB benchmarking suite (Redis, Weaviate, Milvus, Qdrant, …) | [`redis/vector-db-benchmark`](https://hub.docker.com/r/redis/vector-db-benchmark) |
-| [sidekiq-rs](https://github.com/redis-performance/sidekiq-rs) | Sidekiq protocol benchmark in Rust | [`redis/sidekiq-benchmark`](https://hub.docker.com/r/redis/sidekiq-benchmark) |
+| [sidekiq-benchmark](https://github.com/redis-performance/sidekiq-benchmark) | Sidekiq protocol load benchmark — job throughput and latency (p50→p99.99) | [`redis/sidekiq-benchmark`](https://hub.docker.com/r/redis/sidekiq-benchmark) |
 | [geo-bench](https://github.com/redis-performance/geo-bench) | Redis geo-command benchmarks | — |
 | [redis-zbench-go](https://github.com/redis-performance/redis-zbench-go) | Sorted-set benchmark | — |
 | [redis-benchmark-connect](https://github.com/redis-performance/redis-benchmark-connect) | TLS/mTLS connection benchmark | — |

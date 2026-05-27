@@ -55,7 +55,7 @@ Several repos in this org publish Docker images to Docker Hub under the `redis/`
 | redis-benchmark-go | `redis/redis-benchmark-go` |
 | pubsub-sub-bench | `redis/pubsub-sub-bench` |
 | vector-db-benchmark | `redis/vector-db-benchmark` |
-| sidekiq-rs | `redis/sidekiq-benchmark` |
+| sidekiq-benchmark | `redis/sidekiq-benchmark` |
 
 Rules when working with Docker:
 - Always use `redis:8.6` or newer as the Redis base image in Dockerfiles and CI service containers.
