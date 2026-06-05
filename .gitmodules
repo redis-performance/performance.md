@@ -67,3 +67,6 @@
 [submodule "redis-benchmarks-specification"]
 	path = redis-benchmarks-specification
 	url = git@github.com:redis/redis-benchmarks-specification.git
+[submodule "bcast-tracking-bench"]
+	path = bcast-tracking-bench
+	url = git@github.com:redis-performance/bcast-tracking-bench.git
